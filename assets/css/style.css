@@ -1206,3 +1206,22 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+
+.fit-image {
+  width: auto;
+  height: auto;
+
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+  /* Add other flex properties as needed */
+}
+.image-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
