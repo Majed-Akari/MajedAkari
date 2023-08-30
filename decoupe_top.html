@@ -26,7 +26,25 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    /* Add this CSS to your <style> block or external stylesheet */
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: auto;
+        max-height: 100vh; /* Set the maximum height to the viewport height */
+    }
 
+    .swiper-slide img {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        object-fit: contain; /* Use "cover" or "contain" as needed */
+    }
+</style>
 </head>
 
 <body>
@@ -36,27 +54,26 @@
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
-
         <div class="row gy-4">
-
           <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
+            <div class="portfolio-details-slider swiper justify-content-center align-items-center">
               <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/sibem/sibem1.jpg" alt="" style="object-fit: contain;">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/sibem/sibem2.jpg" alt="" style="object-fit: contain;">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/sibem/sibem3.jpg" alt="" style="object-fit: contain;">
-                </div>
-               
-              
+              <div class="swiper-slide d-flex justify-content-center align-items-center">
+                  <img src="assets/img/portfolio/decoupe_TOP/top1.jpeg" alt="" style="object-fit: contain;">
               </div>
+              <div class="swiper-slide d-flex justify-content-center align-items-center">
+                  <img src="assets/img/portfolio/decoupe_TOP/top2.jpeg" alt="" style="object-fit: contain;">
+              </div>
+              <div class="swiper-slide d-flex justify-content-center align-items-center">
+                  <img src="assets/img/portfolio/decoupe_TOP/top3.jpeg" alt="" style="object-fit: contain;">
+              </div>
+              <div class="swiper-slide d-flex justify-content-center align-items-center">
+                <img src="assets/img/portfolio/decoupe_TOP/top4.jpeg" alt="" style="object-fit: contain;">
+            </div>
+            <div class="swiper-slide d-flex justify-content-center align-items-center">
+                <img src="assets/img/portfolio/decoupe_TOP/top5.jpeg" alt="" style="object-fit: contain;">
+            </div>
+            </div>
               <div class="swiper-pagination"></div>
             </div>
           </div>
@@ -64,18 +81,17 @@
           <div class="col-lg-4">
             <div class="portfolio-info">
               <div class="portfolio-description">
-              <h2>Modification du ligne de production SIBEM
-              </h2>
+              <h2>Projet découpe TOP</h2>
               </div>
               <ul>
-                <li><strong>Description </strong><br>Ce projet englobe la conception afin de modifier les lignes de production SIBEM</li>
+                <li><strong>Description </strong><br>Les projets de découpe numérique avec CNC associent habilement la technologie de commande numérique par ordinateur à la créativité de la conception. En utilisant des machines CNC de pointe, ces projets réalisent des découpes précises et complexes dans une variété de matériaux, aboutissant à des réalisations uniques allant des prototypes industriels aux œuvres artistiques, et démontrant l'alliance entre l'innovation technologique et la conception créative</li>
               </ul>
             </div>
           </div>
-  
+
         </div>
-  
-        </div>
+
+      </div>
     </section><!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
